@@ -80,8 +80,8 @@
                     android:autoLink="web"
                     android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
                     android:linksClickable="true"
-                    android:paddingTop="@dimen/fab_margin"
                     android:paddingBottom="@dimen/detail_body_bottom_margin"
+                    android:paddingTop="@dimen/fab_margin"
                     android:textColor="@color/theme_primary_dark"
                     android:textColorLink="@color/theme_accent"
                     android:textSize="@dimen/detail_body_text_size"/>
@@ -98,8 +98,6 @@
         android:layout_margin="@dimen/fab_margin"
         android:contentDescription="@string/action_share"
         android:src="@drawable/ic_share"
-        app:elevation="@dimen/fab_elevation"
-        app:fabSize="normal"
-        app:pressedTranslationZ="@dimen/fab_press_translation_z"/>
+        app:fabSize="normal"/>
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
